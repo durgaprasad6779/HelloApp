@@ -1,7 +1,7 @@
 public class HelloApp {
     public static void main(String[] args) {
         if (args.length > 0) {
-            for (String name : args) {
+            for (String name : args) {   // Enhanced for loop
                 System.out.println("Hello " + name);
             }
         } else {
